@@ -13,7 +13,7 @@ services:
           name: nocodb-db
           property: connectionString
       - key: NC_PUBLIC_URL
-        value: https://nocodb.onrender.com # Replace with actual Render URL after deploy
+        value: https://nocodb.onrender.com  # Replace this after deployment with actual URL
 
 databases:
   - name: nocodb-db
